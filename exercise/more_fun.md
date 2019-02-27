@@ -1,36 +1,48 @@
-/* Mia, Albert, and Tony are going to a party.
-     Set "attendees" to an array of their names. */
+## Arrays
 
+1. Mia, Albert, and Tony are going to a party. Set "attendees" to an array of their names.
+
+	```js
 attendees = [null];
+```
 
 
-/* Create the same array in a different way -- 
-      by creating a new Array object. */
+1. Create the same array in a different way -- 
+      by creating a new Array object.
 
+	```js
 attendees = null;
+```
 
+1. Access the third element in the array. 
 
-/* Access the third element in the array. */
-
+	```js
 attendees
+```
 
-/* Write a statement which sorts the array. */
+1. Write a statement which sorts the array.
 
+	```js
 attendees
+```
 
-/* Write a statement which removes the last 
-     element of the array. */
+1. Write a statement which removes the last 
+     element of the array. 
 
+	```js
 attendees
+```
 
 
-/* Write a statement which shifts a new element
-     into the array as element 0 -- "Elaine" */
-
+1. Write a statement which shifts a new element
+     into the array as element 0 -- "Elaine"
+	
+	```js
 attendees
+```
 
 
-/* console.log the following poem. Do it using 
+1. `console.log` the following poem. Do it using 
 	a single console.log statement! Make sure there
 	are four separate lines in the console output. 
 
@@ -39,52 +51,60 @@ attendees
 	Javascript and Ruby,
 	They cannot be beat! */
 
-
+	```js
 console.log(null);
+```
 
 
-/************************
- *  WHILE LOOPS
- ************************/
 
-/* Fix the below while loop so that the user
+## WHILE LOOPS
+
+
+1. Fix the below while loop so that the user
      is continually asked whether he or she is done. 
      Continue looping while the user enters "no".
      Remember you can place console.log statements
-     inside loops to "see" the values change. */
+     inside loops to "see" the values change. 
 
+	```js
 var isDone = "no";
 while (isDone === null) {
 	isDone = prompt("Are you done?");
 }
+```
 
 
-/* Modify the solution to the above while loop
+1. Modify the solution to the above while loop
      below. Now, continue looping if "no" OR "No"
-     is entered. */
+     is entered.
 
+	```js
 var isDone = "no";
 while (isDone === null) {
 	isDone = prompt("Are you done?");
 }
+```
 
 
 
-/* Explain to each other in English what this statement
+1. Explain to each other in English what this statement
      does. It should be a simple statement.
      Look up functions such as Math.round() and 
      Math.random() if they are new. Try pasting the
      individual parts of this statement into
-     your console to better understand it! */
+     your console to better understand it!
 
+	```js
 var theTarget = Math.round(100 * Math.random()) + 1;
+```
 
 
-/* Number guessing game. While the guess is not
+1. Number guessing game. While the guess is not
      the target value, continue asking the user
      for a guess and informing whether the guess
-     is too low or too high. */
+     is too low or too high. 
 
+	```js
 var guess = 0;
 var theTarget = Math.round(100 * Math.random()) + 1;
 while (null) {
@@ -96,183 +116,206 @@ while (null) {
 		alert("Too low!");
 	}
 }
+```
 
 
-/* The following while loop implements a 
+1. The following while loop implements a 
       "count up" clock. Make it console.log the
-      numbers 1, 2, 3, 4, and 5. */
+      numbers 1, 2, 3, 4, and 5.
 
+	```js
 var i = null;
 while (i < null) {
 	console.log(null);
 	null;
 }
+```
 
 
-/************************
- *  FOR LOOPS
- ************************/
 
-/* Rewrite the "count up" clock as a for loop! */
+## FOR LOOPS
 
+
+1. Rewrite the "count up" clock as a for loop!
+
+	```js
 for (null; null; null) {
 	console.log(null);
 }
+```
 
-/* Rewrite the for loop to have no initial conditions. */
+1. Rewrite the for loop to have no initial conditions.
 
+	```js
 null;
 for (; null; null) {
 	console.log(null);
 }
+```
 
-/* Rewrite the for loop to have no incrementing statement. */
+1. Rewrite the for loop to have no incrementing statement.
 
+	```js
 for (null; null; ) {
 	console.log(null);
 	null;
 }
+```
 
-/* Rewrite the for loop to have no incrementing or intial
-     statements. */
-
+1. Rewrite the for loop to have no incrementing or intial
+     statements.
+     
+	```js
 null;
 for (; null; ) {
 	console.log(null);
 	null;
 }
+```
 
-/* Note that this is identical to the while loop! */
+	/* Note that this is identical to the while loop! */
 
 
-/* Let's make a count DOWN clock. We will display 
-     5, 4, 3, 2, 1, 0. */
+1. Let's make a count DOWN clock. We will display 
+     5, 4, 3, 2, 1, 0.
 
+	```js
 var i = null;
 while (i >= null) {
 	console.log(null);
 	null;
 }
+```
 
-/* Now, rewrite the countdown clock as a for loop! */
+1. Now, rewrite the countdown clock as a for loop!
 
+	```js
 for (null; null; null) {
 	console.log(null);
 }
+```
 
 
-/* Using a for loop, print each value of the array
-     to the console. */
+1. Using a for loop, print each value of the array
+     to the console.
 
+	```js
 var foods = ["Burger", "Fries", "Drink", "Tomato"];
-
 for (i=0; i<null; null) {
 	console.log(null);
 }
+```
 
-/* Using a for loop, print each value of the array
-     to the console, backwards! */
-
+1. Using a for loop, print each value of the array
+     to the console, backwards!
+     
+	```js
 var foods = ["Burger", "Fries", "Drink", "Tomato"];
-
 for (i=foods.length-1; null; null) {
 	console.log(null);
 }
+```
 
 
+## FUNCTIONS
 
-/************************
- *  FUNCTIONS
- ************************/
 
-/* Given the following function, call the function with
+1. Given the following function, call the function with
      appropriate example values. In a comment, write
-     what the expected output will be. */
+     what the expected output will be.
+     
+	```js
+	function concatStrings(str, appendString) {
+		return str + appendString;
+	}
+	
+	concatStrings(null);  // output is: 
+```
 
-function concatStrings(str, appendString) {
-	return str + appendString;
-}
-
-concatStrings(null);  // output is: 
-
-
-/* Write a function that takes one number as a parameter,
+1. Write a function that takes one number as a parameter,
      and returns that number plus one. Choose good 
      variable names! Call the function with an appropriate
-     parameter. */
+     parameter.
 
-function increment(badParameterName) {
-	return null;
-}
+	```js
+	function increment(badParameterName) {
+		return null;
+	}
+	
+	increment(null);  // output is: 
+```
 
-increment(null);  // output is: 
-
-
-/* Complete the below function. It accepts a 
+1. Complete the below function. It accepts a 
 	 number and returns a string with "a" repeated 
 	 that many times. For example, calling the 
 	 function with 3 will return "aaa". 
      Use a for loop to construct the return
      string. Call the function
      with example values and write the output as
-     a comment. */
+     a comment. 
 
-function repeatA(numTimesRepeated) {
-	var returnString = "";
-
-	for (null; null; null) {
-		returnString += "a";
+	```js
+	function repeatA(numTimesRepeated) {
+		var returnString = "";
+	
+		for (null; null; null) {
+			returnString += "a";
+		}
+		
+		return returnString;
 	}
 	
-	return returnString;
-}
+	repeatA(null);   // output is: 
+```
 
-repeatA(null);   // output is: 
-
-
-/* Let's generalize the last function. Now, a 
+1. Let's generalize the last function. Now, a 
      second parameter will be passed which is the
      character (or string) to repeat! Call the function
      with example values and write the output as
-     a comment. */
+     a comment. 
 
-function repeatString(numTimesRepeated, stringToRepeat) {
-	// modify the last function's code
-}
-
-repeatString(null, null);  // output is: 
-
-
-/* Write a function which returns the original array,
-     but reversed! */
-
-function reverseStrings(arrayOfStrings) 
-{
-	var reversedArray = [];
-
-	for (i=arrayOfStrings.length-1; null; null) {
-		reversedArray.push(null);
+	```js
+	function repeatString(numTimesRepeated, stringToRepeat) {
+		// modify the last function's code
 	}
+	
+	repeatString(null, null);  // output is: 
+```
 
-	return reversedArray;
-}
+1. Write a function which returns the original array,
+     but reversed!
 
-var foods = ["Burger", "Fries", "Drink", "Tomato"];
-reverseStrings(foods);
+	```js
+	function reverseStrings(arrayOfStrings) 
+	{
+		var reversedArray = [];
+	
+		for (i=arrayOfStrings.length-1; null; null) {
+			reversedArray.push(null);
+		}
+	
+		return reversedArray;
+	}
+	
+	var foods = ["Burger", "Fries", "Drink", "Tomato"];
+	reverseStrings(foods);
 
-/* Note that variables can be assigned functions. */
+	/* Note that variables can be assigned functions. */
 
-var someVariable = repeatA;
-var anotherVariable = repeatA;
+	var someVariable = repeatA;
+	var anotherVariable = repeatA;
+```
 
-/* Try running the above two lines in your browser.
+1. Try running the above two lines in your browser.
      Now, try calling the functions by using the
-     new variables. (i.e. run the below code!) */
-
+     new variables. (i.e. run the below code!)
+     
+	```js
 someVariable(3);
 anotherVariable(5);
 
-/* This is an important fact about JavaScript --
+	/* This is an important fact about JavaScript --
      functions can be assigned to variables and 
      passed around as arguments to functions! */
+```
 
