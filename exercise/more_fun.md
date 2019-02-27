@@ -1,9 +1,7 @@
-## Arrays
-
 1. Mia, Albert, and Tony are going to a party. Set "attendees" to an array of their names.
 
 	```js
-attendees = [null];
+	attendees = [null];
 ```
 
 
@@ -11,26 +9,26 @@ attendees = [null];
       by creating a new Array object.
 
 	```js
-attendees = null;
+	attendees = null;
 ```
 
 1. Access the third element in the array. 
 
 	```js
-attendees
+	attendees
 ```
 
 1. Write a statement which sorts the array.
 
 	```js
-attendees
+	attendees
 ```
 
 1. Write a statement which removes the last 
      element of the array. 
 
 	```js
-attendees
+	attendees
 ```
 
 
@@ -38,7 +36,7 @@ attendees
      into the array as element 0 -- "Elaine"
 	
 	```js
-attendees
+	attendees
 ```
 
 
@@ -52,7 +50,7 @@ attendees
 	They cannot be beat! */
 
 	```js
-console.log(null);
+	console.log(null);
 ```
 
 
