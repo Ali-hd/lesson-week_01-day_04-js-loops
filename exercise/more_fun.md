@@ -22,14 +22,14 @@
 
 	```js
 	attendees
-```
+	```
 
 1. Write a statement which removes the last 
      element of the array. 
 
 	```js
 	attendees
-```
+	```
 
 
 1. Write a statement which shifts a new element
@@ -37,7 +37,7 @@
 	
 	```js
 	attendees
-```
+	```
 
 
 1. `console.log` the following poem. Do it using 
@@ -51,7 +51,7 @@
 
 	```js
 	console.log(null);
-```
+	```
 
 
 
